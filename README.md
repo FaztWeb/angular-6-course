@@ -1,6 +1,15 @@
+
 # Angular6Course
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+# Index
+- hello-world: manually-created-component
+- hello-world-cli: component generated with angular/cli
+- blucle-for: iterate data
+- child-component: a component used inside other component
+- typescript: basic of the language
+- events: input events
 
 ## Development server
 
@@ -25,3 +34,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Usefull Commands Options
+- `--port <Number>` to change the server port number
+- `--open` or `-o` to open in the default browser

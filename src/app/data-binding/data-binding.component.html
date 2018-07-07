@@ -1,0 +1,20 @@
+<p>
+  Username: {{user.name}}
+</p>
+<p>
+  Age: {{user.age}}
+</p>
+<p>
+  Street: {{user.address.street}}
+</p>
+<p>
+  City: {{user.address.city}}
+</p>
+
+<form>
+  <input type="text" name="username" [(ngModel)]="user.name">
+  <input type="text" name="age" [(ngModel)]="user.age">
+  <input type="text" name="address.street" [(ngModel)]="user.address.street">
+  <input type="text" name="address.city" [(ngModel)]="user.address.city">
+</form>
+

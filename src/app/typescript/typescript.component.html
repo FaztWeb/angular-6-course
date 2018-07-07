@@ -1,0 +1,15 @@
+<p>
+  Name: {{name}}
+</p>
+<p>
+  Age: {{age}}
+</p>
+<p>
+  Address: {{address.street}} - {{address.city}}
+</p>
+Hobbies:
+<ul>
+  <li *ngFor="let hobby of hobbies; let i = index;">
+    {{i + 1 }} - {{hobby}}
+  </li>
+</ul>

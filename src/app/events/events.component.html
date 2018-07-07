@@ -1,0 +1,20 @@
+<button (click)="greet()">
+  Say Hello
+</button>
+
+<ul>
+  <li *ngFor="let user of users">
+    {{user}} <button (click)="deleteUser(user)">Delete</button>
+  </li>
+</ul>
+
+<button (click)="addUser()">
+  Add A User
+</button>
+
+<form (submit)="sendUser(newUser)">
+  <input type="text" #newUser>
+  <button>
+    Send User
+  </button>
+</form>
